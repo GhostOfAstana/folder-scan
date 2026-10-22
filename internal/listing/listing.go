@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ernat-soltanbekov/folder-scan/internal/ageprofile"
+	"github.com/GhostOfAstana/folder-scan/internal/ageprofile"
 )
 
 type Writer interface{ Write([]byte) (int, error) }

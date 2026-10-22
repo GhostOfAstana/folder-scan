@@ -1,6 +1,6 @@
 # folder-scan
 
-[![Audit](https://github.com/ernat-soltanbekov/folder-scan/actions/workflows/ci.yml/badge.svg)](https://github.com/ernat-soltanbekov/folder-scan/actions/workflows/ci.yml)
+[![Audit](https://github.com/GhostOfAstana/folder-scan/actions/workflows/ci.yml/badge.svg)](https://github.com/GhostOfAstana/folder-scan/actions/workflows/ci.yml)
 
 **Порядок в файлах. Точность в деталях. Проверка под нагрузкой.**
 
@@ -19,7 +19,7 @@
 Нужен **Go 1.25+**. Make и Python 3.9+ нужны для полного сквозного аудита.
 
 ```sh
-git clone https://github.com/ernat-soltanbekov/folder-scan.git
+git clone https://github.com/GhostOfAstana/folder-scan.git
 cd folder-scan
 go build -o folder-scan .
 

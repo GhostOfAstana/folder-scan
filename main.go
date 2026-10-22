@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ernat-soltanbekov/folder-scan/internal/listing"
+	"github.com/GhostOfAstana/folder-scan/internal/listing"
 )
 
 func main() {

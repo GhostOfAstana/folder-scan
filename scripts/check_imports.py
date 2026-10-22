@@ -10,7 +10,7 @@ for path in ROOT.rglob("*.go"):
     text = path.read_text()
     for match in re.finditer(r'(?m)^import\s+(?:\((.*?)\)|([^\n]+))', text, re.S):
         for imported in re.findall(r'"([^"]+)"', match.group(1) or match.group(2)):
-            local = imported.startswith("github.com/ernat-soltanbekov/folder-scan/internal/")
+            local = imported.startswith("github.com/GhostOfAstana/folder-scan/internal/")
             test = path.name.endswith("_test.go") and imported == "testing"
             assert imported in ALLOWED or local or test, (str(path.relative_to(ROOT)), imported)
     count += 1
